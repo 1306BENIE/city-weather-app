@@ -3,9 +3,9 @@ import { configureStore } from "@reduxjs/toolkit";
 import weatherReducer from "../slices/WeatherSlice";
 import { thunk } from "redux-thunk";
 
-const globaStore = configureStore({
+const globalStore = configureStore({
   reducer: { weather: weatherReducer },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk),
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat,
 });
 
-export default globaStore;
+export default globalStore;

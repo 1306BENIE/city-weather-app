@@ -1,4 +1,4 @@
-// import { useContext } from "react";
+import React from "react";
 import { styledInput } from "../../utils/inputStyles";
 import SearchWeatherWrapper from "../SearchWeatherWrapper";
 import SharedButton from "../SharedButton";
