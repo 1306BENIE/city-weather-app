@@ -5,7 +5,7 @@ const SearchWeatherWrapper = ({ children }) => {
         padding: "30px",
         boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)",
         borderRadius: "16px",
-        backgroundColor: "#ffffff",
+        backgroundColor: "#fff",
         width: "350px",
         textAlign: "center",
         transition: "transform 0.2s",
